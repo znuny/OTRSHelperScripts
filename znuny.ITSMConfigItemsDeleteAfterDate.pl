@@ -86,7 +86,7 @@ for my $ConfigItemID ( sort @ConfigItemIDs ) {
 
     print STDOUT "Deleting ConfigItem with ConfigItemID '$ConfigItemID'.\n";
 
-    my $Success = $CommonObject{ConfigObject}->ConfigItemDelete(
+    my $Success = $CommonObject{ConfigItemObject}->ConfigItemDelete(
         ConfigItemID => $ConfigItemID,
         UserID       => 1,
     );
