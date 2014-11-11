@@ -30,9 +30,9 @@ use Kernel::System::AuthSession;
 # get options
 my %Opts;
 GetOptions(
-    'userlogin|u=s'   => \$Opts{UserLogin},
-    'usertype|t=s' => \$Opts{UserType},
-    'help|h'       => \$Opts{Help},
+    'userlogin|u=s' => \$Opts{UserLogin},
+    'usertype|t=s'  => \$Opts{UserType},
+    'help|h'        => \$Opts{Help},
 );
 
 # common objects
